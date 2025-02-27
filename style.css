@@ -4,6 +4,7 @@ body {
     color: #333;
     padding-top: 260px; /* Fixed header height: logo/name (100px) + carousel (150px) + nav + padding */
     background-color: #2DD4BF;
+    overflow-x: hidden;
 }
 
 /* Header Styles */
