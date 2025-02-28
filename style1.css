@@ -1,0 +1,202 @@
+/* General Styles */
+body {
+    font-family: 'Roboto', sans-serif;
+    color: #333;
+    margin: 0;
+    overflow-x: hidden; /* Prevent horizontal scrolling */
+}
+
+/* Header Styles */
+.header-logo {
+    width: 100px;
+    height: 100px;
+}
+.college-name {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 24px;
+    color: #1E3A8A;
+}
+.dept-name {
+    font-size: 18px;
+    color: #2DD4BF;
+}
+.dept-pic {
+   /* Ensure it fits container */
+   height: 400px;
+   object-fit: cover;
+   border-radius: 10px;
+}
+.carousel {
+   width: 2000%;
+     /* Prevent overflow */
+}
+.navbar-nav .nav-link {
+    color: #1E3A8A;
+    padding: 10px 15px;
+}
+.navbar-nav .nav-link:hover, .navbar-nav .nav-link.active {
+    color: #2DD4BF;
+    border-bottom: 2px solid #2DD4BF;
+}
+.custom-toggler {
+    border-color: #2DD4BF;
+    padding: 8px;
+}
+.custom-toggler .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='%232DD4BF' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+}
+.login-btn {
+    background-color: #2DD4BF;
+    color: white;
+    border: none;
+    padding: 8px 20px;
+}
+.login-btn:hover {
+    background-color: #1E3A8A;
+    color: white;
+}
+
+/* Main Content Background */
+.main-content {
+    background-color: #F5F6F5;
+}
+
+/* Hero Section */
+.hero {
+   /* min-height: 400px;
+    display: flex;
+    align-items: center;
+    position: relative;
+   /* background: url('assets/hero.jpg') no-repeat center/cover;*/
+
+    min-height: 40px;
+    display: flex;
+    align-items: center;
+    background-color: #2DD4BF;
+    font-display: black;
+}
+.hero-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    z-index: 1;
+}
+.hero .container {
+    position: relative;
+    z-index: 2;
+    font-display: black;
+    background-color: #2DD4BF;
+}
+.hero h2, .hero p {
+    color: #FFFFFF;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.8);
+}
+
+/* Department Head */
+.dept-head-pic {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+.dept-head h5 {
+    color: #1E3A8A;
+    margin-bottom: 5px;
+}
+.dept-head p {
+    font-size: 14px;
+    color: #333;
+}
+
+/* Mission and Vision Boxes */
+.mission-box, .vision-box {
+    background-color: #FFFFFF;
+    border: 1px solid #E5E7EB;
+    border-radius: 5px;
+}
+.mission-box h5, .vision-box h5 {
+    color: #1E3A8A;
+}
+.mission-box p, .vision-box p {
+    font-size: 14px;
+    color: #333;
+}
+
+/* Cards & Images */
+.card {
+    border: 1px solid #E5E7EB;
+    transition: box-shadow 0.3s;
+}
+.card:hover {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+.img-fluid {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Footer Styles */
+.bg-navy {
+    background-color: #1E3A8A;
+}
+.footer-link {
+    color: #2DD4BF;
+    text-decoration: none;
+}
+.footer-link:hover {
+    color: #FFFFFF;
+    text-decoration: underline;
+}
+.social-icon {
+    width: 30px;
+    height: 30px;
+}
+hr.bg-light {
+    border-color: #E5E7EB;
+}
+.page-note {
+    font-size: 12px;
+    color: #2DD4BF;
+}
+
+/* Responsive Adjustments */
+@media (max-width: 768px) {
+    .college-name { font-size: 18px; }
+    .dept-name { font-size: 14px; }
+    .header-logo { width: 80px; height: 80px; }
+    .dept-pic { 
+        height: 150px;
+    }
+    .carousel {
+        margin-top: 10px;
+    }
+    .custom-toggler {
+        margin-top: 10px;
+    }
+    .login-btn {
+        padding: 6px 15px;
+        font-size: 14px;
+    }
+    .dept-head-pic {
+        width: 100px;
+        height: 100px;
+    }
+    .mission-box, .vision-box {
+        margin-bottom: 15px;
+    }
+    .footer h5 {
+        margin-top: 15px;
+    }
+    .page-note {
+        font-size: 10px;
+    }
+}
+.Latest .container{
+    position: relative;
+    z-index: 2;
+    font-display: black;
+    background-color: #2DD4BF;
+}
